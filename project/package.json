@@ -37,3 +37,10 @@
     "supabase": "^1.145.4"
   }
 }
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
