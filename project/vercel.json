@@ -1,1 +1,18 @@
+<<<<<<< HEAD
 {"rewrites":[{"source":"/","destination":"/"}]}
+=======
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
+>>>>>>> 00da4c083b3aefd29ba506bf02ffab72ae5c5e45
